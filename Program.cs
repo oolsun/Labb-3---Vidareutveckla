@@ -19,30 +19,30 @@ namespace VarmDrinkStation
         }
     }
 
-    // Implementerar en specifik varm dryck, i detta fall vatten
+    // Implementerar en specifik varm dryck, i detta fall kaffe
     internal class Coffee : IWarmDrink
     {
         public void Consume()
         {
-            Console.WriteLine("Coffee is served."); // Utskrift vid konsumtion av vatten
+            Console.WriteLine("Coffee is served."); // Utskrift vid konsumtion av kaffe
         }
     }
 
-    // Implementerar en specifik varm dryck, i detta fall vatten
+    // Implementerar en specifik varm dryck, i detta fall cappuccino
     internal class Cappuccino : IWarmDrink
     {
         public void Consume()
         {
-            Console.WriteLine("Cappuccino is served."); // Utskrift vid konsumtion av vatten
+            Console.WriteLine("Cappuccino is served."); // Utskrift vid konsumtion av cappuccino
         }
     }
 
-    // Implementerar en specifik varm dryck, i detta fall vatten
+    // Implementerar en specifik varm dryck, i detta fall varm choklad
     internal class Chocolate : IWarmDrink
     {
         public void Consume()
         {
-            Console.WriteLine("Hot chocolate is served."); // Utskrift vid konsumtion av vatten
+            Console.WriteLine("Hot chocolate is served."); // Utskrift vid konsumtion av varm choklad
         }
     }
 
